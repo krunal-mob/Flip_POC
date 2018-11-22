@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="FLIPKART">
+<listeners>
+ <listener class-name="com.Reports.ExtentReportNG" />
+</listeners>
+ <test name="FlipLogin">
+ <classes> <class name="flipTest.TestCases"/>
+ </classes>
+ </test>
+ </suite>

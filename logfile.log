@@ -1,0 +1,23 @@
+2018-08-01 11:02:02,453 INFO  [Log] Username is entered for test case TC1 
+2018-08-01 11:02:02,745 INFO  [Log] Password is entered for test case TC1 
+2018-08-01 11:02:05,222 INFO  [Log] User is logged in for testcase TC1 
+2018-08-01 11:02:05,708 INFO  [Log] User is able to hover on my account TC1 
+2018-08-01 11:02:22,468 INFO  [Log] Username is entered for test case TC2 
+2018-08-01 11:02:22,723 INFO  [Log] Password is entered for test case TC2 
+2018-08-01 11:02:42,980 ERROR [Log] No element present assert fail TC2 
+2018-08-01 11:02:57,972 INFO  [Log] Username is entered for test case TC3 
+2018-08-01 11:02:58,118 INFO  [Log] Password is entered for test case TC3 
+2018-08-01 11:03:00,306 INFO  [Log] User is logged in for testcase TC3 
+2018-08-01 11:03:00,355 INFO  [Log] User is able to hover on my account TC3 
+2018-08-01 11:03:00,479 INFO  [Log] User is able to click on logout TC3 
+2018-08-01 11:03:03,288 INFO  [Log] User is logout successfully TC3 
+2018-08-01 11:03:17,351 INFO  [Log] Username is entered for test case TC4 
+2018-08-01 11:03:17,551 INFO  [Log] Password is entered for test case TC4 
+2018-08-01 11:03:37,684 ERROR [Log] No element present assert fail TC4 
+2018-08-01 11:03:45,267 ERROR [Log] URL is not valid for TC5 
+2018-08-01 11:03:59,441 INFO  [Log] Username is entered for test case TC6 
+2018-08-01 11:03:59,586 INFO  [Log] Password is entered for test case TC6 
+2018-08-01 11:04:01,660 INFO  [Log] User is logged in for testcase TC6 
+2018-08-01 11:04:01,703 INFO  [Log] User is able to hover on my account TC6 
+2018-08-01 11:04:01,822 INFO  [Log] User is able to click on logout TC6 
+2018-08-01 11:04:04,277 INFO  [Log] User is logout successfully TC6 

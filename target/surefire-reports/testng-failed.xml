@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [FLIPKART]">
+  <listeners>
+    <listener class-name="com.Reports.ExtentReportNG"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="FlipLogin(failed)">
+    <classes>
+      <class name="flipTest.TestCases">
+        <methods>
+          <include name="quit"/>
+          <include name="Testcase" invocation-numbers="0 1 3 4"/>
+        </methods>
+      </class> <!-- flipTest.TestCases -->
+    </classes>
+  </test> <!-- FlipLogin(failed) -->
+</suite> <!-- Failed suite [FLIPKART] -->

@@ -1,0 +1,154 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>Flipkart</groupId>
+  <artifactId>flipTest</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>flipTest</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+  
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>6.14.3</version>
+    <scope>test</scope>
+</dependency>
+
+<dependency>
+    <groupId>com.relevantcodes</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>2.41.2</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-core -->
+<dependency>
+    <groupId>info.cukes</groupId>
+    <artifactId>cucumber-core</artifactId>
+    <version>1.2.2</version>
+</dependency>
+
+  
+  <dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>3.13.0</version>
+</dependency>
+
+<dependency>
+
+            <groupId>org.uncommons</groupId>
+
+            <artifactId>reportng</artifactId>
+
+            <version>1.1.4</version>
+
+            <scope>test</scope>
+
+            <exclusions>
+
+                <exclusion>
+
+                    <groupId>org.testng</groupId>
+
+                    <artifactId>testng</artifactId>
+
+                </exclusion>
+
+            </exclusions>
+
+</dependency>
+
+<dependency>
+
+            <groupId>com.google.inject</groupId>
+
+            <artifactId>guice</artifactId>
+
+            <version>3.0</version> 
+ 
+</dependency>  
+
+
+<dependency>
+    <groupId>net.sourceforge.jexcelapi</groupId>
+    <artifactId>jxl</artifactId>
+    <version>2.6.12</version>
+</dependency>
+
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>3.17</version>
+</dependency>
+
+  
+  <dependency>
+    <groupId>log4j</groupId>
+    <artifactId>log4j</artifactId>
+    <version>1.2.17</version>
+</dependency>
+
+
+
+  
+  <dependency>
+    <groupId>com.atomicleopard</groupId>
+    <artifactId>webelemental</artifactId>
+    <version>0.0.1</version>
+</dependency>
+
+ <!-- Java Mail API -->
+    <dependency>
+	    <groupId>javax.mail</groupId>
+	    <artifactId>mail</artifactId>
+	    <version>1.4.3</version>
+    </dependency>
+    
+    <!-- Spring framework -->
+    <dependency>
+     	<groupId>org.springframework</groupId>
+	    <artifactId>spring</artifactId>
+	    <version>2.5.6</version>
+    </dependency>
+
+<dependency>
+    <groupId>log4j</groupId>
+    <artifactId>log4j</artifactId>
+    <version>1.2.17</version>
+</dependency>
+  
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+ 
+  <build> 
+		<plugins>
+		<!-- Suirefire plugin to run xml files --> 
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.18.1</version>
+				<configuration>
+					<suiteXmlFiles>
+				<!-- TestNG suite XML files -->
+					<suiteXmlFile>C:\Users\swapnilband\Documents\workspace-sts-3.7.0.RELEASE\flipTest\testNg.xml</suiteXmlFile>
+					</suiteXmlFiles>
+				</configuration>
+			</plugin>
+		</plugins>
+</build>
+  
+</project>
